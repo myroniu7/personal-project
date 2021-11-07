@@ -14,4 +14,4 @@ spring:
     init:
       platform: h2
   thymeleaf:
-    enabled: false
+    enabled: true

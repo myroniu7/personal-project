@@ -1,2 +1,17 @@
-{
-    }
+spring:
+  datasource:
+    url: jdbc:h2:mem:nisumdb
+    username: sa
+    password:
+  security:
+    user:
+      name: tomcat
+      password: tomcat
+  h2:
+    console:
+      enabled: true
+  sql:
+    init:
+      platform: h2
+  thymeleaf:
+    enabled: false

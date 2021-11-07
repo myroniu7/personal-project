@@ -1,2 +1,15 @@
-package com.nisum.test.demo.dto;public class PhoneDto {
+package com.nisum.test.demo.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class PhoneDto {
+
+    private String number;
 }
